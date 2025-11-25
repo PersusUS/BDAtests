@@ -1,0 +1,2242 @@
+[
+  {
+    "question": "1. What is the primary design goal of a multimodal AI model?",
+    "options": [
+      "To process only textual information.",
+      "To process different types of inputs (like text, images, audio) separately.",
+      "To process and connect information from different types of inputs.",
+      "To focus on improving accuracy for single-modality tasks."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "2. Speech-to-text (STT) technology is primarily based on:",
+    "options": [
+      "Optical Character Recognition (OCR).",
+      "Neural networks that convert spoken audio into text.",
+      "Video frame extraction.",
+      "Image preprocessing techniques."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. The CLIP model was introduced by which organization in 2021?",
+    "options": [
+      "Google",
+      "OpenAI",
+      "Microsoft",
+      "Meta"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. What was the scale of the dataset used to pre-train the CLIP model?",
+    "options": [
+      "10,000 images",
+      "1 million image-text pairs",
+      "400 million (400M) image-text pairs",
+      "1 billion text paragraphs"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "5. Which metric does CLIP use to measure the similarity between image and text embeddings?",
+    "options": [
+      "Euclidean Distance",
+      "Manhattan Distance",
+      "Cosine Similarity",
+      "Mean Absolute Error"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "6. Which of the following is a common challenge for Optical Character Recognition (OCR)?",
+    "options": [
+      "Audio noise",
+      "Blurry images, diverse fonts, multilingual support",
+      "Low video frame rate",
+      "Text encoding errors"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. The key capability that allows CLIP to perform \"zero-shot learning\" is:",
+    "options": [
+      "It does not require any image data.",
+      "It was pre-trained on a vast set of natural language descriptions paired with images.",
+      "It only processes text inputs.",
+      "It uses traditional computer vision methods."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. What is the primary purpose of using t-SNE and UMAP in CLIP-related experiments?",
+    "options": [
+      "To train the neural network model.",
+      "To perform speech recognition.",
+      "To visualize high-dimensional embedding vectors in a 2D space.",
+      "To enhance image resolution."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "9. In the context of the CLIP experiment, the \"Human in the Loop\" role does NOT typically include:",
+    "options": [
+      "Writing text prompts.",
+      "Calculating cosine similarity.",
+      "Selecting images.",
+      "Debugging the code."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "10. A significant advantage of CLIP over traditional supervised learning models is:",
+    "options": [
+      "It has a faster training speed.",
+      "It does not need to be retrained for every new task.",
+      "It does not require any computational resources.",
+      "It can only handle one specific type of task."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "1. What are the three basic levels of a big data computing system according to the general architecture?",
+    "options": [
+      "Data Collection, Data Processing, Data Visualization",
+      "Data Storage, Data Processing, Data Application",
+      "Data Extraction, Data Transformation, Data Loading",
+      "Data Cleaning, Data Reduction, Data Integration"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. Which of the following is NOT one of the 5V's of Big Data?",
+    "options": [
+      "Volume",
+      "Velocity",
+      "Veracity",
+      "Variability"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "3. What does the “Fourth Paradigm” of scientific research emphasize?",
+    "options": [
+      "Theoretical modeling",
+      "Empirical observation",
+      "Data-driven exploration",
+      "Computational simulation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "4. Which technique is used for reducing data dimensionality by selecting a subset of relevant attributes?",
+    "options": [
+      "Data Cube Aggregation",
+      "Attribute Subset Selection",
+      "Numerosity Reduction",
+      "Wavelet Transform"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. In ETL (Extract, Transform, Load) process, which method is used for incremental data extraction?",
+    "options": [
+      "Full Extraction",
+      "Random Sampling",
+      "Timestamp-based Extraction",
+      "Manual Entry"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "6. Which of the following is a characteristic of Unstructured Data?",
+    "options": [
+      "Stored in rows and columns",
+      "Easy to query and analyze",
+      "Includes images, videos, and PDFs",
+      "Has a fixed schema"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "7. What is the main goal of Data Reduction?",
+    "options": [
+      "To increase data storage cost",
+      "To obtain a condensed dataset that maintains original data integrity",
+      "To remove all noisy data permanently",
+      "To convert all data into unstructured format"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. Which data cleaning technique groups similar data points to detect outliers?",
+    "options": [
+      "Binning",
+      "Regression",
+      "Clustering",
+      "Smoothing"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "9. What does “DFS” stand for in the context of Feature Tools?",
+    "options": [
+      "Depth-First Search",
+      "Deep Feature Synthesis",
+      "Distributed File System",
+      "Data Format Standard"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "10. Which of the following is a common method for handling missing values in data cleaning?",
+    "options": [
+      "Ignoring the tuple",
+      "Deleting the entire dataset",
+      "Replacing with random values",
+      "Duplicating existing records"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "11. In web crawler strategies, which approach visits all links at the current level before going deeper?",
+    "options": [
+      "Depth-First",
+      "Breadth-First",
+      "PageRank",
+      "OPIC"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "12. Which type of data is described as “textual data with an apparent pattern, enabling analysis”?",
+    "options": [
+      "Structured Data",
+      "Unstructured Data",
+      "Semi-Structured Data",
+      "Quasi-Structured Data"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "13. What is the purpose of Data Normalization?",
+    "options": [
+      "To increase data size",
+      "To scale data proportionally into a specific range",
+      "To remove all duplicates",
+      "To encrypt sensitive data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. Which of the following is an example of external data source?",
+    "options": [
+      "CRM system",
+      "ERP database",
+      "Social media feeds",
+      "Internal IoT sensors"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "15. What does “OPIC” stand for in web crawling?",
+    "options": [
+      "Online Page Importance Computation",
+      "Offline Page Indexing Code",
+      "Open Page Interaction Center",
+      "Optical Page Image Capture"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "16. Which data transformation technique replaces low-level data with higher-level concepts?",
+    "options": [
+      "Smoothing",
+      "Aggregation",
+      "Generalization",
+      "Construction"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "17. In the context of data quality, what does “naming conflict” refer to?",
+    "options": [
+      "Using the same name for different objects",
+      "Missing values in a dataset",
+      "Redundant records",
+      "Inconsistent data formats"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "18. Which of the following is a lossless data compression method?",
+    "options": [
+      "JPEG compression",
+      "MP3 compression",
+      "ZIP compression",
+      "MPEG compression"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "19. What is the main challenge of processing financial PDFs with traditional ETL?",
+    "options": [
+      "Too much structured data",
+      "Lack of semantic understanding",
+      "Easy to extract tables",
+      "Standardized layout"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "20. Which component is part of the “Data Application System” in the big data architecture?",
+    "options": [
+      "Distributed File System",
+      "Data Visualization",
+      "MapReduce",
+      "Data Cleaning"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "1. What is the primary goal of supervised learning?",
+    "options": [
+      "To find patterns and structures in unlabeled data",
+      "To learn a mapping from inputs (X) to correct outputs (Y)",
+      "To perform customer segmentation and anomaly detection",
+      "To use only input data without any target answers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. According to the presentation, what is one of the most widely used open-source tools for data labeling?",
+    "options": [
+      "Snorkel",
+      "TensorFlow",
+      "Label Studio",
+      "PyTorch"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "3. What is a core component of Label Studio's workflow that defines the UI, classes, and labeling tools?",
+    "options": [
+      "Project",
+      "Annotation",
+      "Labeling Config",
+      "Prediction"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "4. In the context of Snorkel, what is a Labeling Function (LF)?",
+    "options": [
+      "A final, perfectly accurate model used for prediction",
+      "A rule or model that produces weak, potentially noisy labels or abstains",
+      "A human annotator who provides gold-standard labels",
+      "The discriminative model that makes final predictions on new data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. What is the primary role of Snorkel's Generative Model?",
+    "options": [
+      "To make final predictions on new, unseen data",
+      "To learn the accuracy and correlations of Labeling Functions and create probabilistic labels",
+      "To replace all human annotators in the labeling process",
+      "To serve as the user interface for defining labeling rules"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. In the Snorkel workflow, what is the purpose of the Discriminative Model?",
+    "options": [
+      "To generate the initial weak labels from various sources",
+      "To combine conflicting signals from different Labeling Functions",
+      "To be trained on probabilistic labels and learn complex patterns for predicting new data",
+      "To act as the knowledge base for heuristic rules"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "7. Which of the following is NOT listed as an application of computer vision discussed in the presentation?",
+    "options": [
+      "Medical imaging for tumor detection",
+      "Autonomous driving for pedestrian recognition",
+      "Sentiment analysis for product reviews",
+      "Retail and E-commerce for visual search"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "8. What is a key benefit of integrating AI tools with Label Studio?",
+    "options": [
+      "To completely eliminate the need for any human input",
+      "To increase labeling speed",
+      "To reduce the cost of cloud storage",
+      "To simplify the installation process using pip or Docker"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. What is a recommended best practice for ensuring labeling quality in Label Studio?",
+    "options": [
+      "Using only a single expert annotator to avoid disagreements",
+      "Having annotators label tasks without any guidelines or ontology",
+      "Using overlap between multiple annotators and employing a review workflow",
+      "Avoiding the use of pre-labels or model predictions to prevent bias"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "10. What is the final output of Snorkel's Generative Model that is used to train the Discriminative Model?",
+    "options": [
+      "A set of perfectly clean, gold-standard labels",
+      "A single, deterministic label for each data point (e.g., \"Cat\" or \"Dog\")",
+      "Probabilistic labels (e.g., Cat 70%, Dog 30%)",
+      "The original raw, unlabeled data"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. What is the core data model used by Neo4j?",
+    "options": [
+      "Tables and rows",
+      "Key-value pairs",
+      "Node-relationship-property graph",
+      "Document collections"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "2. In the context of Knowledge Graph construction, what is the primary purpose of Information Extraction (IE)?",
+    "options": [
+      "To visualize graph data",
+      "To transform unstructured text into structured triplets",
+      "To optimize Cypher queries",
+      "To train LLMs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. Which of the following is a key challenge in Named Entity Recognition (NER)?",
+    "options": [
+      "Lack of graph databases",
+      "Entity ambiguity (e.g., “Apple” as company vs. fruit)",
+      "Inefficient Cypher syntax",
+      "Too many structured data sources"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. What does “zero-shot extraction” refer to in the context of LLMs?",
+    "options": [
+      "Extracting entities with no prior examples or training data",
+      "Extracting zero entities from text",
+      "Using zero rules for extraction",
+      "Running extraction with no computational resources"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "5. Which Cypher command is used to ensure a node or relationship is created only if it does not already exist?",
+    "options": [
+      "CREATE",
+      "MATCH",
+      "MERGE",
+      "INSERT"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "6. Why are graph databases particularly valuable in big data applications?",
+    "options": [
+      "They use less storage",
+      "They excel at managing and exploring relationships",
+      "They only work with structured data",
+      "They replace the need for LLMs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. Which of the following is NOT a typical step in building a knowledge graph from unstructured text?",
+    "options": [
+      "Chunking documents",
+      "Entity and relationship extraction",
+      "Image recognition",
+      "Data ingestion into a graph database"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "8. Prompt engineering in LLM-based extraction is important because:",
+    "options": [
+      "It reduces the cost of the LLM API",
+      "It ensures consistent and accurate output structure",
+      "It eliminates the need for a graph database",
+      "It increases the size of the model"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. In the financial knowledge graph experiment, what was the main role of the LLM?",
+    "options": [
+      "To visualize the graph in Neo4j Browser",
+      "To extract entities and relationships from news text",
+      "To write Cypher queries automatically",
+      "To replace the Neo4j database"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "10. Which of the following best describes the function of Cypher in Neo4j?",
+    "options": [
+      "A procedural programming language for data analysis",
+      "A declarative query language for graph data",
+      "A machine learning framework",
+      "A visualization tool"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "11. What is a common method for correcting extraction errors in automated KG construction?",
+    "options": [
+      "Ignoring small errors",
+      "Using rule-based checks or human review",
+      "Restarting the LLM service",
+      "Deleting all extracted data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "12. In the experiment, what was the primary format of the source data?",
+    "options": [
+      "Structured CSV files",
+      "Financial news text",
+      "Relational database tables",
+      "Image files"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. Which type of data requires hierarchical mapping strategies during KG construction?",
+    "options": [
+      "Structured data",
+      "Semi-structured data (e.g., JSON, XML)",
+      "Fully unstructured image data",
+      "Binary data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. What is the main advantage of using a graph database over a relational database for connected data?",
+    "options": [
+      "Graph databases use less memory",
+      "Graph databases avoid the use of schemas",
+      "Graph databases handle multi-hop queries more efficiently",
+      "Graph databases do not require query languages"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "15. In the financial KG system, what was the final step after graph construction?",
+    "options": [
+      "Entity extraction",
+      "Document chunking",
+      "Interactive visualization",
+      "LLM fine-tuning"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. In autoregressive text generation in LLMs, which description is most accurate?",
+    "options": [
+      "The model generates all tokens simultaneously and then reorders them based on global semantics.",
+      "The model predicts the next token one by one based on the preceding context, gradually constructing the output sequence.",
+      "The model uses reinforcement learning from human feedback to generate complete paragraphs directly.",
+      "The model uses an encoder-decoder structure for multiple iterations of generation during the inference stage."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. In the RLHF training process, what is the primary role of the PPO algorithm?",
+    "options": [
+      "Used for large-scale corpus learning during the pre-training phase.",
+      "Used during the fine-tuning stage to optimize the policy model based on human feedback, aligning its outputs more closely with human preferences.",
+      "Used to build a reward model to replace human labeling.",
+      "Used to enhance the model's generalization ability in few-shot learning."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. In a RAG system, what is the primary task of the retriever?",
+    "options": [
+      "To perform factual verification and correction of the generated results.",
+      "To retrieve relevant documents or passages from a knowledge base based on the query.",
+      "To rewrite the user's query into a more understandable format.",
+      "To perform real-time fine-tuning of the generative model to adapt to new knowledge."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. What is the most fundamental difference between Agentic RAG and classic RAG?",
+    "options": [
+      "Whether a vector database is used.",
+      "Whether it possesses the ability to autonomously call tools, plan tasks, and perform multi-step reasoning.",
+      "Whether it is based on the GPT-4 architecture.",
+      "Whether it supports multilingual retrieval and generation."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. In a Multi-Agent system like MetaGPT, what is the main purpose of role assignment?",
+    "options": [
+      "To have each Agent use a different base large model.",
+      "To simulate human team division of labor, enabling each Agent to focus on specific subtasks.",
+      "To reduce the overall computational overhead of the system.",
+      "To prevent communication conflicts between Agents."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. In the ReACT framework used by AutoGPT, what does the key component 'Act' refer to?",
+    "options": [
+      "Self-criticism and reflection on the task results.",
+      "Proposing the specific next action or tool call to execute.",
+      "Breaking down the task into smaller subtasks.",
+      "Retrieving relevant information from long-term memory."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. When a vector database serves as long-term memory in an Agent system, what is its core advantage?",
+    "options": [
+      "It can completely replace the model's parametric knowledge.",
+      "It provides highly efficient and accurate semantic retrieval capabilities, overcoming the model's context window limitations.",
+      "It can automatically execute code tools.",
+      "It enables real-time monitoring of the model's training process."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. During the supervised fine-tuning phase of an LLM, what does the model primarily learn?",
+    "options": [
+      "The basic syntax and semantic structure of language.",
+      "The ability to follow instructions and perform reasoning for specific tasks based on human-annotated input-output pairs.",
+      "Predicting masked words from massive internet text.",
+      "Optimizing the policy function through interaction with the environment."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. In a multi-agent collaboration framework, which of the following functions is NOT a capability of a 'Workflow Node'?",
+    "options": [
+      "Defining the identity and skills of an agent.",
+      "Arranging logical processes and coordinating collaboration between different types of nodes.",
+      "Integrating various node types like LLM, Plugin, and Knowledge nodes.",
+      "Constructing automated execution pipelines for complex tasks."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "10. Regarding the application of prompt injection in ChatGPT, which statement is correct?",
+    "options": [
+      "It is a model training method used to improve generation quality.",
+      "It involves injecting instructions before and after the conversation to guide the model to reply in a specific style or role.",
+      "It is an adversarial attack aimed at making the model leak training data.",
+      "It refers to compiling user queries into machine-executable code."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "11. During AutoGPT's 'self-reflection and correction' phase, what does the task creation agent use to adjust subsequent tasks?",
+    "options": [
+      "Only the user's initial prompt.",
+      "Collected feedback, internal dialogue, and execution results.",
+      "Only the system's pre-set constraints.",
+      "The real-time call limits of external APIs."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "12. In a multi-agent system, the 'HITL' mechanism is typically used to:",
+    "options": [
+      "Replace all AI decisions to ensure full human control.",
+      "Introduce human intervention or review at critical decision points.",
+      "Train agents to imitate human conversation styles.",
+      "Accelerate the model inference process."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. Which option most accurately describes the relationship between an 'Agent' and an 'LLM'?",
+    "options": [
+      "An Agent is a simplified version of an LLM, used for lightweight tasks.",
+      "Agent = LLM + Planning + Memory + Tool Use.",
+      "An Agent is primarily used to replace LLMs for mathematical calculations.",
+      "Agents and LLMs are unrelated; they are completely independent technical paths."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. In Graph RAG, what is the primary role of the knowledge graph?",
+    "options": [
+      "To replace the generative model and output answers directly.",
+      "To provide structured relationships between entities, supporting complex reasoning and multi-hop retrieval.",
+      "Only for visualizing retrieval results.",
+      "To store all the parameters of the model."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. When AutoGPT's 'task prioritization agent' evaluates tasks, which factor is it LEAST likely to consider?",
+    "options": [
+      "Dependencies between tasks.",
+      "Available resources and system constraints.",
+      "The loss function used during the model's training phase.",
+      "The task's contribution to the final goal."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. What does CASH stand for in AutoML?",
+    "options": [
+      "Combined Algorithm Selection and Hyperparameter optimization",
+      "Computer Automated Statistical Handling",
+      "Comprehensive Analysis of Selected Hyperparameters",
+      "Computational Algorithm for System Hierarchy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "2. What is the primary goal of Automated Feature Engineering (AFE)?",
+    "options": [
+      "To manually select the best machine learning algorithm",
+      "To automatically generate new features from existing data using algorithms",
+      "To deploy machine learning models to production",
+      "To visualize data relationships through charts and graphs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. In Deep Feature Synthesis (DFS), what are \"primitives\"?",
+    "options": [
+      "The original raw data tables before any processing",
+      "Simple operations such as sum, mean, count, and max",
+      "The final machine learning models after training",
+      "The hyperparameters used in AutoML optimization"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. How does Featuretools primarily work with relational data?",
+    "options": [
+      "By training deep neural networks on each table separately",
+      "By applying primitives across related tables in an EntitySet",
+      "By converting all data to images for computer vision analysis",
+      "By manually defining feature relationships through code"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. What is the main advantage of using AutoML compared to traditional machine learning workflows?",
+    "options": [
+      "It eliminates the need for any data preprocessing",
+      "It automatically handles algorithm selection and hyperparameter tuning",
+      "It guarantees 100% accuracy on all datasets",
+      "It only works with image data and computer vision tasks"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. In Featuretools, what is an \"Aggregation Primitive\"?",
+    "options": [
+      "An operation that transforms data within the same table",
+      "A function that operates across related tables to create new features",
+      "A method for visualizing feature importance",
+      "A technique for handling missing values in datasets"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. What problem does the \"max_runtime_secs\" parameter solve in H2O AutoML?",
+    "options": [
+      "It prevents data leakage between training and test sets",
+      "It limits how long AutoML can run, ensuring timely completion",
+      "It determines the maximum depth of decision trees in the ensemble",
+      "It sets the threshold for feature importance selection"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. What is the purpose of the \"Leaderboard\" in H2O AutoML?",
+    "options": [
+      "To display the ranking of different models based on their performance",
+      "To show the geographical distribution of data samples",
+      "To visualize the correlation between different features",
+      "To track the progress of manual feature engineering"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "9. In the experiment workflow, what was the purpose of creating four different feature sets?",
+    "options": [
+      "To compare the performance of different feature engineering strategies",
+      "To test the AutoML system's ability to handle large datasets",
+      "To demonstrate that manual features always outperform automated ones",
+      "To show that original features are sufficient for good performance"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "10. What does \"data leakage\" refer to in machine learning?",
+    "options": [
+      "When test data information inadvertently influences the training process",
+      "When the dataset is too large for available memory",
+      "When features are automatically generated by Featuretools",
+      "When the AutoML system selects the wrong algorithm"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "11. In the context of Featuretools, what is a \"Transformation Primitive\"?",
+    "options": [
+      "An operation that creates features across multiple related tables",
+      "A function that transforms data within a single table",
+      "A method for converting categorical variables to numerical",
+      "A technique for aggregating time-series data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "12. What was the key finding from the experiment regarding \"Original + Auto\" features?",
+    "options": [
+      "It achieved the worst performance across all metrics",
+      "It performed similarly to using only original features",
+      "It achieved the best results across all evaluation metrics",
+      "It was only slightly better than manual feature engineering"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "13. In Deep Feature Synthesis, what does \"stacking primitives in layers\" enable?",
+    "options": [
+      "Creation of increasingly complex features through multiple operations",
+      "Visualization of feature relationships in 3D space",
+      "Parallel processing of multiple datasets simultaneously",
+      "Automatic detection of outlier values in the data"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "14. What is the role of \"EntitySet\" in Featuretools?",
+    "options": [
+      "To define relationships between multiple data tables",
+      "To select the best machine learning algorithm",
+      "To optimize hyperparameters for the model",
+      "To evaluate the final model performance"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "15. According to the experiment results, what was the main advantage of automated features over manual features?",
+    "options": [
+      "Automated features could discover deep combinations difficult to design manually",
+      "Manual features were completely unnecessary when using AutoML",
+      "Automated features required less computational resources",
+      "Manual features always provided better domain interpretability"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "1. What is the primary goal of Ray?",
+    "options": [
+      "To replace Spark entirely",
+      "To provide a unified API for distributed deep learning",
+      "To handle only image processing tasks",
+      "To support CPU-only computations"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. Which core component in Ray provides shared memory and low-latency data access?",
+    "options": [
+      "Driver",
+      "Workers",
+      "Object Store",
+      "Actor"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "3. Which communication method does PyTorch DistributedDataParallel (DDP) use?",
+    "options": [
+      "Parameter Server",
+      "All-Reduce",
+      "Point-to-Point",
+      "Broadcast"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. What is the main advantage of integrating Spark with PyTorch?",
+    "options": [
+      "Only for data visualization",
+      "Building end-to-end machine learning pipelines",
+      "Replacing TensorFlow",
+      "Only for model inference"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. Which component in Spark 3.4+ is responsible for launching and managing PyTorch DDP jobs?",
+    "options": [
+      "MLlib",
+      "Torch Distributor",
+      "Spark SQL",
+      "GraphX"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. What is a key limitation of Spark MLlib?",
+    "options": [
+      "No support for DataFrames",
+      "GPU-only computations",
+      "CPU-based, no support for GPU tensor computations",
+      "No model evaluation capabilities"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "7. Which architecture replicates the model on each GPU and uses All-Reduce for synchronization?",
+    "options": [
+      "Parameter Server Architecture",
+      "Model Parallelism",
+      "Data Parallelism",
+      "Hybrid Parallelism"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "8. Which Ray decorator is used to define parallel tasks?",
+    "options": [
+      "@ray.actor",
+      "@ray.remote",
+      "@ray.task",
+      "@ray.parallel"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. Which of the following is NOT part of the Ray ecosystem?",
+    "options": [
+      "Ray Tune",
+      "Ray Train",
+      "Ray Serve",
+      "Ray SQL"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "10. Why is Spark's fault-tolerance mechanism problematic for deep learning?",
+    "options": [
+      "No Python support",
+      "Data immutability",
+      "Recomputation-based recovery doesn't suit DL's stochastic nature",
+      "Only works with small datasets"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "11. Which framework enables running deep learning directly on Spark?",
+    "options": [
+      "TensorFlowOnSpark",
+      "PyTorch Lightning",
+      "Keras",
+      "Scikit-learn"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "12. What is the primary use of the All-Reduce method in distributed training?",
+    "options": [
+      "Data preprocessing",
+      "Model inference",
+      "Gradient synchronization",
+      "Model saving"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "13. What does the Actor abstraction in Ray represent?",
+    "options": [
+      "Stateless functions",
+      "Persistent, stateful services",
+      "Read-only data",
+      "Temporary tasks"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. What are the primary data structures used in Spark MLlib?",
+    "options": [
+      "Arrays and Lists",
+      "DataFrames and RDDs",
+      "Tensors",
+      "Graph structures"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. Which of the following is NOT handled by Torch Distributor on Spark?",
+    "options": [
+      "Environment setup",
+      "Master node coordination",
+      "Model compilation",
+      "Rank assignment"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. What is the primary characteristic of linear regression?",
+    "options": [
+      "It can capture complex non-linear relationships",
+      "It estimates relationships using a straight line",
+      "It requires large amounts of data to train",
+      "It uses neural networks for prediction"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. When is neural network regression preferred over linear regression?",
+    "options": [
+      "When the relationship between input and output is mostly linear",
+      "When working with small datasets",
+      "When dealing with complex, non-linear relationships",
+      "When model interpretability is the highest priority"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "3. What is the key advantage of linear regression mentioned in the presentation?",
+    "options": [
+      "Ability to handle very complex patterns",
+      "Simple to build and quick to train",
+      "Requires no data preprocessing",
+      "Automatically selects important features"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. According to the experiment results, why did raw K-means achieve good performance on MNIST data?",
+    "options": [
+      "Because it used deep neural networks for feature extraction",
+      "Because MNIST digit patterns are simple enough for pixel-based clustering",
+      "Because it had access to true labels during training",
+      "Because it used advanced distance metrics"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. What is the core innovation of DeepCluster?",
+    "options": [
+      "It eliminates the need for any clustering algorithm",
+      "It combines deep neural networks with clustering to learn features and clusters together",
+      "It only works with labeled data",
+      "It replaces all traditional machine learning methods"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. Why did supervised DeepCluster achieve the best performance in the experiment?",
+    "options": [
+      "Because it used the simplest algorithm",
+      "Because true labels guided the CNN to learn discriminative features",
+      "Because it didn't use any neural networks",
+      "Because it worked directly on raw pixels"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. What is the main limitation of K-means clustering mentioned?",
+    "options": [
+      "It works too well for complex shapes",
+      "It requires labeled data",
+      "It works best if clusters are round and separated",
+      "It is too slow for large datasets"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "8. What type of neural network is specifically mentioned as being good for image data in DeepCluster?",
+    "options": [
+      "Recurrent Neural Network (RNN)",
+      "Convolutional Neural Network (CNN)",
+      "Multilayer Perceptron (MLP)",
+      "Radial Basis Function Network (RBFN)"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. What evaluation metric was used to compare clustering performance in the experiment?",
+    "options": [
+      "Mean Squared Error (MSE)",
+      "Accuracy",
+      "Adjusted Mutual Information (AMI)",
+      "R-squared"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "10. What is the key difference between supervised and unsupervised learning?",
+    "options": [
+      "Supervised learning uses unlabeled data, unsupervised uses labeled data",
+      "Supervised learning uses labeled data, unsupervised uses unlabeled data",
+      "Both use labeled data but for different purposes",
+      "There is no significant difference between them"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "11. What problem does DeepCluster specifically aim to solve?",
+    "options": [
+      "Making linear regression more accurate",
+      "Clustering image data more effectively using learned features",
+      "Reducing the cost of data storage",
+      "Making neural networks easier to interpret"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. According to the presentation, what is a major requirement for neural networks to perform well?",
+    "options": [
+      "They work well with very small datasets",
+      "They require more data and training time than linear regression",
+      "They don't need any data preprocessing",
+      "They can train instantly without computation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. What was the main finding about unsupervised DeepCluster in the experiment?",
+    "options": [
+      "It performed the best among all methods",
+      "It performed worse due to noisy pseudo-labels",
+      "It was identical to raw K-means in performance",
+      "It didn't work at all on MNIST data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. What is the primary reason someone might choose linear regression over neural networks?",
+    "options": [
+      "When they need to handle extremely complex patterns",
+      "When they have very large computational resources",
+      "When the relationship is mostly linear and they value simplicity",
+      "When they have millions of data points"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. What is the main purpose of a web crawler?",
+    "options": [
+      "To clean datasets",
+      "To automatically browse and collect web content",
+      "To train machine learning models",
+      "To translate text"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. Which Python library is commonly used for web scraping?",
+    "options": [
+      "NumPy",
+      "BeautifulSoup",
+      "TensorFlow",
+      "Matplotlib"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. What is a challenge in crawling dynamic websites?",
+    "options": [
+      "Too many images",
+      "JavaScript-rendered content",
+      "Duplicate values in datasets",
+      "Missing column names"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. Why do we clean data before analysis?",
+    "options": [
+      "To make data more colorful",
+      "To reduce bias and errors",
+      "To increase website speed",
+      "To train crawlers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. Which of the following is a data cleaning method?",
+    "options": [
+      "Normalization",
+      "Visualization",
+      "Crawling",
+      "Compression"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "6. If a dataset has missing values, which method can be used?",
+    "options": [
+      "Ignoring rows and Filling with mean/median",
+      "Ignoring rows",
+      "Filling with mean/median",
+      "None"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "7. What does LLM stand for?",
+    "options": [
+      "Large Language Model",
+      "Limited Learning Machine",
+      "Linear Logic Method",
+      "Long Latency Memory"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "8. Which of the following is an example of a large language model?",
+    "options": [
+      "ResNet",
+      "BERT",
+      "Hadoop",
+      "MongoDB"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. Fine-tuning an LLM means:",
+    "options": [
+      "Training from scratch with huge data",
+      "Adapting a pre-trained model to a specific task",
+      "Cleaning raw text before training",
+      "Crawling websites for data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "10. One application of LLMs in education is:",
+    "options": [
+      "Web scraping",
+      "Automatic essay grading",
+      "Data normalization",
+      "Database indexing"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "1. What is the primary goal of the \"LLM Aided Data Cleaning\" project as stated in the presentation?",
+    "options": [
+      "To develop a new large language model.",
+      "To demonstrate how LLMs can simplify and speed up cleaning messy, web-crawled data.",
+      "To compare different data visualization tools.",
+      "To manually clean a dataset for maximum accuracy."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. According to the presentation, what was the source of the raw data used in this project?",
+    "options": [
+      "Twitter API",
+      "Web-crawled Reddit posts",
+      "Synthetic data generated by a model",
+      "Public government databases"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. Which of the following was NOT listed as a challenge in the raw Reddit data?",
+    "options": [
+      "Advertisements",
+      "Duplicate entries",
+      "Low-level encryption",
+      "Extra characters and links"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "4. What tool is most likely used to initially collect raw data from Reddit, as implied by the project's context?",
+    "options": [
+      "Beautiful Soup",
+      "Scrapy",
+      "PRAW (Python Reddit API Wrapper)",
+      "Selenium"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "5. Which step was part of the preliminary manual cleaning process?",
+    "options": [
+      "Training a custom GPT model",
+      "Applying ChatGPT-generated regex patterns",
+      "Filtering out irrelevant rows like ads and off-topic comments",
+      "Setting up a LangChain agent"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "6. What type of patterns did the team use ChatGPT to generate for automated cleaning?",
+    "options": [
+      "Neural network architectures",
+      "Data visualization schemas",
+      "Regular expression (regex) patterns",
+      "SQL database queries"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "7. Based on the time comparison in the presentation, how much faster was the LLM-assisted cleaning compared to manual cleaning?",
+    "options": [
+      "~350x faster",
+      "~3,500x faster",
+      "~35,000x faster",
+      "Approximately the same speed"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "8. What is a key limitation mentioned regarding the use of LLMs like ChatGPT for data cleaning?",
+    "options": [
+      "They cannot process text-based data.",
+      "They are always more expensive than human labor.",
+      "Without well-designed prompts, they may clean data incorrectly or delete useful information.",
+      "They require powerful quantum computers to run."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "9. Despite the efficiency of LLMs, what does the presentation conclude is still necessary?",
+    "options": [
+      "A complete replacement of the entire dataset.",
+      "Manual review by a human to validate the output.",
+      "Slowing down the processing speed for better accuracy.",
+      "Using a different LLM for each type of error."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "10. The final remark of the presentation suggests that LLM-aided data cleaning is a step towards what?",
+    "options": [
+      "Fully automated AI that requires no human input.",
+      "More efficient and intelligent data processing where humans and AI work together.",
+      "Replacing all data scientist roles with automated scripts.",
+      "Focusing solely on data collection instead of cleaning."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "1. What does ETL stand for?",
+    "options": [
+      "Extract, Translate, Load",
+      "Extract, Transform, Load",
+      "Export, Transform, Load",
+      "Extract, Transfer, Load"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. Which type of data is considered the \"sweet spot\" for traditional ETL processes?",
+    "options": [
+      "Unstructured data",
+      "Semi-structured data",
+      "Structured data",
+      "Image data"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "3. What is a primary challenge of using traditional ETL with PDF documents?",
+    "options": [
+      "Large data volume",
+      "Lack of a standard structure",
+      "Data encryption",
+      "Outdated data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. In which stage of the ETL process does AI primarily help with semantic understanding and context preservation?",
+    "options": [
+      "Extract only",
+      "Transform only",
+      "Load only",
+      "All stages (Extract, Transform, Load)"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "5. Which Python library was used in the experiment to extract text from PDFs?",
+    "options": [
+      "requests",
+      "pdfplumber",
+      "PyCharm",
+      "SQLite"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. What is a key strength of AI in data extraction from financial PDFs?",
+    "options": [
+      "Detecting image colors",
+      "Understanding semantic relationships",
+      "Identifying page layout",
+      "Recognizing font sizes"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "11. Which of the following is an AI capability during the Transform stage?",
+    "options": [
+      "Extracting raw text",
+      "Standardizing terminology",
+      "Printing PDFs",
+      "Sending emails"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. Which of the following is NOT a risk of using traditional ETL for financial PDFs?",
+    "options": [
+      "High error rate",
+      "Strong semantic understanding",
+      "Incomplete data extraction",
+      "Loss of context"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. What does \"Semantic Linking\" refer to in the AI-enhanced ETL process?",
+    "options": [
+      "Linking to web pages",
+      "Connecting numerical data with explanatory text",
+      "Linking databases",
+      "Connecting charts"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. What is the main advantage of AI-enhanced ETL over traditional ETL?",
+    "options": [
+      "Lower cost",
+      "Slower but more accurate",
+      "Faster, more accurate, and intelligent",
+      "Only suitable for small datasets"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "1. In user-based collaborative filtering, if the cosine similarity between user A and user B is 0.95, it indicates that:",
+    "options": [
+      "User A and user B have identical ratings for all items",
+      "The rating directions of user A and user B are highly consistent",
+      "The absolute rating values of user A and user B are very close",
+      "User A and user B have no co-rated items"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "2. Which of the following similarity measurement methods is least sensitive to rating bias (e.g., users generally giving high ratings)?",
+    "options": [
+      "Cosine Similarity",
+      "Pearson Correlation Coefficient",
+      "Jaccard Similarity",
+      "Euclidean Distance"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "3. In recommendation systems, the cold-start problem primarily occurs in which of the following situations?",
+    "options": [
+      "Excessive historical user behavior data",
+      "New users or new items lacking interaction data",
+      "Overly dense user behavior data",
+      "Insufficient number of items"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. Which of the following is NOT a function of Matrix Factorization (MF) in recommendation systems?",
+    "options": [
+      "Alleviating data sparsity",
+      "Directly generating textual explanations for recommendations",
+      "Learning latent vector representations of users and items",
+      "Dimensionality reduction to extract latent features"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "5. Which method is most suitable for adapting a pre-trained LLM to a new task without updating the model parameters?",
+    "options": [
+      "Full Fine-tuning",
+      "Prompting / In-Context Learning",
+      "Prompt Tuning",
+      "Instruction Tuning"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. In LLM-enhanced recommendation systems, which paradigm involves \"using the LLM as a user preference analyzer to generate semantic tags\"?",
+    "options": [
+      "LLM-generated embeddings + Recommendation System",
+      "LLM-generated semantic tags + Recommendation System",
+      "LLM as an end-to-end Recommendation System",
+      "LLM as a Discriminative Model"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "7. Which of the following methods is NOT effective in alleviating the cold-start problem in recommendation systems?",
+    "options": [
+      "Utilizing social network information",
+      "Asking users to select interest tags during registration",
+      "Using Matrix Factorization",
+      "Using Neighborhood-based Collaborative Filtering"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "8. In collaborative filtering, a Pearson correlation coefficient of -0.8 indicates:",
+    "options": [
+      "Highly similar user interests",
+      "Highly opposite user interests",
+      "No linear relationship between users",
+      "A non-linear relationship between users"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "9. Which of the following LLM training methods belongs to Parameter-Efficient Fine-Tuning (PEFT)?",
+    "options": [
+      "Full Fine-tuning",
+      "Prompt Engineering",
+      "Prompt Tuning",
+      "Instruction Tuning"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "10. In recommendation systems, which paradigm allows the LLM to directly generate recommendation lists and explanations?",
+    "options": [
+      "LLM-generated embeddings",
+      "LLM-generated semantic tags",
+      "LLM as an end-to-end Recommendation System",
+      "LLM as a Discriminative Model"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "11. Which similarity measurement method considers only whether users have interacted with items, ignoring specific ratings?",
+    "options": [
+      "Cosine Similarity",
+      "Pearson Correlation Coefficient",
+      "Jaccard Similarity",
+      "Euclidean Distance"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "12. What is the primary purpose of using SVD for matrix factorization in recommendation systems?",
+    "options": [
+      "Directly generating recommendation explanations",
+      "Learning latent semantic representations of users and items",
+      "Calculating social relationships between users",
+      "Enhancing the generative capability of the model"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. Which method is most suitable for handling extremely sparse user-item interaction matrices?",
+    "options": [
+      "Neighborhood-based Collaborative Filtering",
+      "Matrix Factorization",
+      "Jaccard Similarity",
+      "Frequent Pattern Mining"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. In LLM-enhanced recommendation systems, which approach represents an application of a \"discriminative model\"?",
+    "options": [
+      "Directly generating recommended item names",
+      "Determining whether a user-item pair is a good match",
+      "Generating textual explanations for recommendations",
+      "End-to-end generation of recommendation lists"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. Which of the following is NOT a major challenge of traditional collaborative filtering?",
+    "options": [
+      "Data Sparsity",
+      "Cold-start Problem",
+      "Poor Interpretability",
+      "Generating natural language explanations"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "1. What is the primary architectural foundation of BERT, which FinBERT builds upon?",
+    "options": [
+      "Recurrent Neural Networks (RNNs)",
+      "Convolutional Neural Networks (CNNs)",
+      "Transformer Encoder with Self-Attention",
+      "Long Short-Term Memory (LSTM) networks"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "2. During BERT's pre-training, the Masked Language Modeling (MLM) task randomly masks what percentage of words in a sentence?",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "3. What is the primary purpose of the Next Sentence Prediction (NSP) task during BERT's pre-training?",
+    "options": [
+      "To predict the next word in a sequence",
+      "To learn relationships and logical flow between sentences",
+      "To translate text from one language to another",
+      "To summarize long paragraphs of text"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "4. FinBERT is a domain-specific adaptation of BERT. What was it specifically fine-tuned on?",
+    "options": [
+      "Medical journals and clinical reports",
+      "Legal documents and court cases",
+      "Financial news, SEC filings, and analyst reports",
+      "Social media posts and tweets"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "5. In the input representation for BERT/FinBERT, which embedding is used to identify which sentence a token belongs to?",
+    "options": [
+      "Token Embedding",
+      "Segment Embedding",
+      "Position Embedding",
+      "Context Embedding"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. According to Experiment 1, what was a key quantitative finding regarding FinBERT's confidence compared to General BERT?",
+    "options": [
+      "FinBERT's average confidence was lower.",
+      "FinBERT's average confidence was roughly the same.",
+      "FinBERT's average confidence was about 71% higher.",
+      "General BERT's confidence was significantly higher for financial text."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "7. In the context of the experiments, what does the \"Balance\" score, calculated as P(Positive) - P(Negative), represent?",
+    "options": [
+      "The model's overall accuracy",
+      "The net sentiment tone of a sentence or text segment",
+      "The probability of the neutral class",
+      "The calibration of the model's confidence"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "8. A key finding from the comparison between FinBERT and a general BERT model in financial sentiment analysis is that they often produce different predictions. What is the primary reason for this discrepancy?",
+    "options": [
+      "FinBERT uses a different neural network architecture than BERT",
+      "FinBERT processes text much faster than the general BERT model",
+      "The two models were trained on different datasets and learned different linguistic representations",
+      "General BERT cannot handle negative words while FinBERT can"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "9. In Experiment 2 (Temporal Visualization), what was the primary data source used for sentiment analysis?",
+    "options": [
+      "Financial news headlines",
+      "Social media posts from CEOs",
+      "Quarterly earnings call transcripts",
+      "SEC 10-K annual report summaries"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "10. Which Python library is primarily used in the provided code for loading and running the FinBERT model?",
+    "options": [
+      "TensorFlow",
+      "Scikit-learn",
+      "Hugging Face Transformers",
+      "NLTK"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "11. What is the main advantage of FinBERT over a general BERT model when analyzing a sentence like \"Apple beats expectations but lowers guidance\"?",
+    "options": [
+      "FinBERT runs significantly faster.",
+      "FinBERT is more likely to correctly identify the mixed or neutral sentiment.",
+      "FinBERT will always classify it as positive.",
+      "FinBERT does not require GPU acceleration."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "12. In the web interface for FinBERT analysis, what is the purpose of the extract_sentiment_evidence function?",
+    "options": [
+      "To train the FinBERT model on new data",
+      "To find key sentences or phrases that support the model's sentiment classification",
+      "To convert logits into probabilities using the softmax function",
+      "To scrape financial data from the web"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "13. How does the self-attention mechanism in the Transformer architecture benefit sentiment analysis?",
+    "options": [
+      "By processing text strictly from left to right",
+      "By allowing the model to weigh the importance of all words in a sentence when encoding a specific word",
+      "By reducing the model's memory footprint",
+      "By converting text into images for analysis"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "14. In Experiment 2, how is the sentiment score for a whole quarter's earnings call typically aggregated?",
+    "options": [
+      "By using only the first 100 sentences of the transcript.",
+      "By averaging the sentiment scores (e.g., Balance) of all individual sentences in the transcript.",
+      "By only analyzing the Q&A section of the call.",
+      "By selecting three random sentences for analysis."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "15. The concept of \"Transfer Learning\" in the context of FinBERT refers to:",
+    "options": [
+      "Taking a pre-trained general language model (BERT) and further training it on a specialized domain (finance).",
+      "Transferring model weights from a GPU to a CPU for inference.",
+      "Translating financial text from one language to another.",
+      "Converting a Python model into a Java application."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is NOT a main advantage of Spark MLlib?",
+    "options": [
+      "Supports multiple programming languages",
+      "Algorithm execution speed is 100x faster than MapReduce",
+      "Can only run on Hadoop",
+      "Provides high-quality machine learning algorithms"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is NOT a core component of Spark MLlib?",
+    "options": [
+      "Pipeline",
+      "Transformer",
+      "Estimator",
+      "TensorFlow"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In Spark MLlib, the primary role of an Estimator is to:",
+    "options": [
+      "Transform data into feature vectors",
+      "Train a model and return a Transformer",
+      "Evaluate model performance",
+      "Save the model to disk"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a type of algorithm supported in Spark MLlib?",
+    "options": [
+      "Classification",
+      "Clustering",
+      "Image Recognition",
+      "Collaborative Filtering"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The primary purpose of a Pipeline in Spark MLlib is to:",
+    "options": [
+      "Implement data visualization",
+      "Build, evaluate, and tune machine learning workflows",
+      "Be used only for data cleaning",
+      "Be used only for model persistence"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "6. The core data structure in TensorFlow is the:",
+    "options": [
+      "DataFrame",
+      "Tensor",
+      "RDD",
+      "Vector"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A hallmark feature of TensorFlow 2.0 is NOT:",
+    "options": [
+      "Eager Execution",
+      "Static Graph First",
+      "Keras Integration",
+      "SavedModel Standardization"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a deployment platform for TensorFlow?",
+    "options": [
+      "TensorFlow Serving",
+      "TensorFlow Lite",
+      "Spark MLlib",
+      "TensorFlow.js"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The API used for distributed training in TensorFlow is:",
+    "options": [
+      "tf.data",
+      "Distribution Strategy",
+      "tf.keras",
+      "tf.hub"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "TensorFlow Lite is primarily used for which scenario?",
+    "options": [
+      "Large-scale cluster training",
+      "Mobile and embedded devices",
+      "Running models in a browser",
+      "Image processing only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "11. The core idea behind Collaborative Filtering is:",
+    "options": [
+      "Recommendation based on item content similarity",
+      "Recommendation based on similarity in user behavior",
+      "Recommendation based on knowledge graphs",
+      "Recommendation based on rules"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In User-based Collaborative Filtering, commonly used similarity measures do NOT include:",
+    "options": [
+      "Jaccard Similarity",
+      "Cosine Similarity",
+      "Euclidean Distance",
+      "Decision Tree"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In Item-based Collaborative Filtering, the calculation of item similarity primarily relies on:",
+    "options": [
+      "Textual similarity of item content",
+      "The overlap of users who like both items",
+      "Item attributes like price or category",
+      "Differences in user ratings for items"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Regarding the application of Matrix Factorization in recommendation systems, which description best reflects its core advantage?",
+    "options": [
+      "Can directly utilize textual descriptions and image features of items for recommendation",
+      "Particularly suitable for handling explicit social network relationships between users and items",
+      "Can automatically learn latent feature vectors for users and items, alleviating data sparsity issues",
+      "Has significant advantages over other methods in user cold-start scenarios"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is NOT an optimization method for Matrix Factorization?",
+    "options": [
+      "ALS",
+      "Gradient Descent",
+      "Random Forest",
+      "Alternating Least Squares"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "16. In a social network, a \"Node\" typically represents:",
+    "options": [
+      "A user or entity",
+      "A network protocol",
+      "A data storage unit",
+      "An algorithm model"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is NOT a commonly used metric in Social Network Analysis?",
+    "options": [
+      "Average Path Length",
+      "Modularity",
+      "Accuracy",
+      "Eigenvector Centrality"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The Fruchterman-Reingold algorithm is primarily used for:",
+    "options": [
+      "Social network visualization",
+      "Recommendation systems",
+      "Image classification",
+      "Text generation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In force-directed graph drawing, \"Attraction\" and \"Repulsion\" between nodes are used to:",
+    "options": [
+      "Calculate node similarity",
+      "Optimize graph layout",
+      "Train neural networks",
+      "Compress data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The primary purpose of the Node2Vec algorithm is:",
+    "options": [
+      "Image recognition",
+      "Node embedding representation learning",
+      "Text classification",
+      "Speech recognition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "21. The core functionality of LangChain does NOT include:",
+    "options": [
+      "Connecting LLMs with external tools",
+      "Building multi-step reasoning chains",
+      "Training large language models",
+      "Managing memory and state"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The primary role of CrewAI is to:",
+    "options": [
+      "Train a single agent",
+      "Coordinate collaboration among multiple agents",
+      "Provide pre-trained models",
+      "Visualize data analysis"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a significant advantage of RAG (Retrieval-Augmented Generation) systems compared to traditional generative models?",
+    "options": [
+      "Effectively reduces model hallucinations",
+      "Can generate answers based on the latest knowledge,不受训练数据时间限制 (not limited by training data time)",
+      "Significantly reduces computational overhead and response time for model inference",
+      "Generated content is more factual and allows tracing information sources"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a multi-agent system, the \"Hand-off mode\" refers to:",
+    "options": [
+      "Multiple agents processing the same task simultaneously",
+      "Sequential transfer of tasks between agents",
+      "All agents sharing the same memory",
+      "Competition among agents"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The main purpose of the Model Context Protocol (MCP) is to:",
+    "options": [
+      "Provide a unified interface between LLMs and external data sources",
+      "Train language models",
+      "Visualize data",
+      "Compress model parameters"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "26. If you want to build a system that automatically analyzes stock data and generates reports, the most suitable technology combination is:",
+    "options": [
+      "Spark MLlib + TensorFlow",
+      "LangChain + CrewAI",
+      "Collaborative Filtering + Matrix Factorization",
+      "Social Network Analysis + Node2Vec"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a recommendation system, if the number of items is much larger than the number of users, it is more suitable to use:",
+    "options": [
+      "User-based Collaborative Filtering",
+      "Item-based Collaborative Filtering",
+      "Content-based Filtering",
+      "Knowledge Graph-based Recommendation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In TensorFlow 2.0, the high-level API used for building models is:",
+    "options": [
+      "tf.estimator",
+      "tf.keras",
+      "tf.data",
+      "tf.hub"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In Spark MLlib, the component used for automated parameter tuning is:",
+    "options": [
+      "Transformer",
+      "Estimator",
+      "CrossValidator",
+      "Pipeline"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In Social Network Analysis, the metric used to measure network closeness is:",
+    "options": [
+      "Average Degree",
+      "Modularity",
+      "Clustering Coefficient",
+      "Centrality"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "31. Which of the following is NOT a core component of Graph RAG?",
+    "options": [
+      "Knowledge Graph",
+      "Cypher Query",
+      "Decision Tree",
+      "LLM"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In LangChain, the primary role of a Chain is to:",
+    "options": [
+      "Store data",
+      "Connect multiple components to form a workflow",
+      "Visualize results",
+      "Train models"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The \"Process\" control methods in CrewAI do NOT include:",
+    "options": [
+      "Sequential Execution",
+      "Hierarchical Execution",
+      "Random Execution",
+      "Parallel Execution"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In TensorFlow, the role of tf.function is to:",
+    "options": [
+      "Convert a Python function into a computation graph",
+      "Load a dataset",
+      "Visualize the training process",
+      "Deploy a model"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In Spark MLlib, ParamMap is used to:",
+    "options": [
+      "Store model parameters",
+      "Define data sources",
+      "Visualize results",
+      "Schedule tasks"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "36. If you want to build a system for real-time news article recommendation, the most suitable technology stack is:",
+    "options": [
+      "Spark MLlib + Collaborative Filtering",
+      "TensorFlow + Image Recognition",
+      "LangChain + CrewAI",
+      "Social Network Analysis + Node2Vec"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In a multi-agent system, the primary responsibility of the Planner Agent is to:",
+    "options": [
+      "Execute specific tasks",
+      "Decompose tasks and assign them",
+      "Evaluate results",
+      "Store data"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a suitable scenario for TensorFlow.js?",
+    "options": [
+      "Running models in a browser",
+      "Running models on a Node.js server",
+      "Running models on embedded devices",
+      "Running models in mobile apps"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In recommendation systems, the Latent Factors in Matrix Factorization represent:",
+    "options": [
+      "Implicit features of users and items",
+      "Explicit user ratings",
+      "Content labels of items",
+      "Users' social relationships"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In Spark MLlib, the fit() method of a Pipeline returns a:",
+    "options": [
+      "Transformer",
+      "Estimator",
+      "Model",
+      "Evaluator"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "41. Which of the following is NOT a difference between RAG and traditional retrieval systems?",
+    "options": [
+      "RAG combines generative models",
+      "RAG uses vector retrieval",
+      "RAG relies solely on keyword matching",
+      "RAG can integrate multiple data sources"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The advantages of Eager Execution in TensorFlow do NOT include:",
+    "options": [
+      "Easier debugging",
+      "Dynamic computation graphs",
+      "Higher efficiency in distributed training",
+      "More intuitive programming experience"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In Social Network Analysis, Modularity is used to measure:",
+    "options": [
+      "The strength of community structure in a network",
+      "Node centrality",
+      "Network diameter",
+      "Edge weight"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In CrewAI, the \"async\" attribute of a Task indicates that:",
+    "options": [
+      "The task can be executed in parallel",
+      "The task must be executed sequentially",
+      "The task does not require tools",
+      "The task is for testing only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In Spark MLlib, the OneHotEncoder belongs to which type of component?",
+    "options": [
+      "Transformer",
+      "Estimator",
+      "Evaluator",
+      "Model"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "46. If you want to build an AI system that can automatically write code, the most suitable technology is:",
+    "options": [
+      "Spark MLlib",
+      "TensorFlow",
+      "LangChain + CrewAI",
+      "Recommendation System"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In TensorFlow, the standard format for saving and exchanging models is:",
+    "options": [
+      "HDF5",
+      "SavedModel",
+      "Checkpoint",
+      "GraphDef"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In recommendation systems, the Cold Start problem is least suitable to be solved by which method?",
+    "options": [
+      "Content-based recommendation",
+      "Collaborative Filtering",
+      "Knowledge Graphs",
+      "Hybrid recommendation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In LangChain, the role of the Output Parser is to:",
+    "options": [
+      "Parse model output into structured data",
+      "Train the model",
+      "Store memory",
+      "Connect to databases"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In Social Network Analysis, which algorithm is most suitable for discovering groups of nodes with similar connection patterns in a network?",
+    "options": [
+      "PageRank algorithm",
+      "Modularity optimization algorithm",
+      "Closeness Centrality algorithm",
+      "Betweenness Centrality algorithm"
+    ],
+    "answer": "B"
+  }
+]

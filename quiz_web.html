@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Practice App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            background: rgba(255, 255, 255, 0.3);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .progress-fill {
+            background: #4caf50;
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .question-card {
+            margin-bottom: 30px;
+        }
+
+        .question-text {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .option {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 18px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .option:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .option.correct {
+            background: #4caf50;
+            color: white;
+            border-color: #4caf50;
+        }
+
+        .option.incorrect {
+            background: #f44336;
+            color: white;
+            border-color: #f44336;
+        }
+
+        .option-letter {
+            background: white;
+            color: #667eea;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-letter {
+            background: white;
+            color: #667eea;
+        }
+
+        .option.correct .option-letter {
+            background: white;
+            color: #4caf50;
+        }
+
+        .option.incorrect .option-letter {
+            background: white;
+            color: #f44336;
+        }
+
+        .option-text {
+            flex: 1;
+            font-size: 1.05em;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex: 1;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .results {
+            padding: 20px 0;
+        }
+
+        .score-display {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .score-display h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .score-display p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .result-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #ddd;
+        }
+
+        .result-item.correct {
+            border-left-color: #4caf50;
+            background: #f1f8f4;
+        }
+
+        .result-item.incorrect {
+            border-left-color: #f44336;
+            background: #fef5f5;
+        }
+
+        .result-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .result-status {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .result-question {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .result-answer {
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .result-answer.your-answer {
+            border-left: 3px solid #667eea;
+        }
+
+        .result-answer.correct-answer {
+            border-left: 3px solid #4caf50;
+        }
+
+        .result-explanation {
+            padding: 12px;
+            background: #fff9e6;
+            border-radius: 8px;
+            margin-top: 10px;
+            border-left: 3px solid #ff9800;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        .start-screen {
+            text-align: center;
+            padding: 60px 40px;
+        }
+
+        .start-screen h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .start-screen p {
+            color: #6c757d;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .question-text {
+                font-size: 1.1em;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Quiz Practice</h1>
+            <p id="progress-text">Ready to start?</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <div class="content" id="app">
+            <div class="start-screen">
+                <h2>Ready to Practice?</h2>
+                <p>Test your knowledge with randomized questions</p>
+                <button class="btn btn-primary" onclick="startQuiz()" style="max-width: 300px; margin: 0 auto;">
+                    Start Quiz
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentQuestion = 0;
+        let userAnswers = [];
+        let results = null;
+
+        async function startQuiz() {
+            const app = document.getElementById('app');
+            app.innerHTML = '<div class="loading">Loading questions...</div>';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/start-quiz');
+                const data = await response.json();
+                questions = data.questions;
+                currentQuestion = 0;
+                userAnswers = new Array(questions.length).fill(null);
+                showQuestion();
+            } catch (error) {
+                app.innerHTML = '<div class="loading">Error loading quiz. Make sure the server is running!</div>';
+            }
+        }
+
+        function showQuestion() {
+            const q = questions[currentQuestion];
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            
+            document.getElementById('progress-text').textContent = 
+                `Question ${currentQuestion + 1} of ${questions.length}`;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+
+            const app = document.getElementById('app');
+            const savedAnswer = userAnswers[currentQuestion];
+
+            app.innerHTML = `
+                <div class="question-card">
+                    <div class="question-text">${q.question}</div>
+                    <div class="options">
+                        ${q.options.map((opt, idx) => {
+                            const letter = String.fromCharCode(65 + idx);
+                            const selected = savedAnswer === letter ? 'selected' : '';
+                            return `
+                                <div class="option ${selected}" onclick="selectAnswer('${letter}')">
+                                    <div class="option-letter">${letter}</div>
+                                    <div class="option-text">${opt}</div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-secondary" onclick="previousQuestion()" 
+                        ${currentQuestion === 0 ? 'disabled' : ''}>
+                        ← Previous
+                    </button>
+                    <button class="btn btn-primary" onclick="nextQuestion()">
+                        ${currentQuestion === questions.length - 1 ? 'Finish Quiz ✓' : 'Next →'}
+                    </button>
+                </div>
+            `;
+        }
+
+        function selectAnswer(letter) {
+            userAnswers[currentQuestion] = letter;
+            
+            // Update UI
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            event.currentTarget.classList.add('selected');
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+            } else {
+                submitQuiz();
+            }
+        }
+
+        async function submitQuiz() {
+            const app = document.getElementById('app');
+            app.innerHTML = '<div class="loading">Calculating results...</div>';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/submit-quiz', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        answers: userAnswers,
+                        questions: questions
+                    })
+                });
+                
+                results = await response.json();
+                showResults();
+            } catch (error) {
+                app.innerHTML = '<div class="loading">Error submitting quiz.</div>';
+            }
+        }
+
+        function showResults() {
+            document.getElementById('progress-text').textContent = 'Quiz Complete!';
+            document.getElementById('progress-fill').style.width = '100%';
+
+            const app = document.getElementById('app');
+            const percentage = results.percentage.toFixed(1);
+            
+            app.innerHTML = `
+                <div class="results">
+                    <div class="score-display">
+                        <h2>${results.correct_count} / ${results.total}</h2>
+                        <p>${percentage}% Correct</p>
+                    </div>
+                    
+                    ${results.results.map((r, idx) => `
+                        <div class="result-item ${r.is_correct ? 'correct' : 'incorrect'}">
+                            <div class="result-header">
+                                <span class="result-status">
+                                    ${r.is_correct ? '✓ Correct' : '✗ Incorrect'}
+                                </span>
+                            </div>
+                            <div class="result-question">
+                                Question ${idx + 1}: ${r.question}
+                            </div>
+                            <div class="result-answer your-answer">
+                                <strong>Your answer:</strong> ${r.user_answer_letter}. ${r.user_answer_text}
+                            </div>
+                            <div class="result-answer correct-answer">
+                                <strong>Correct answer:</strong> ${r.correct_answer_letter}. ${r.correct_answer_text}
+                            </div>
+                            ${!r.is_correct && r.explanation ? `
+                                <div class="result-explanation">
+                                    <strong>📚 Explanation:</strong><br>
+                                    ${r.explanation}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('')}
+
+                    <div class="buttons">
+                        <button class="btn btn-success" onclick="location.reload()">
+                            Take Another Quiz
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
